@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
 	faGithub,
-	faStackOverflow,
+	faLinkedin,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -115,16 +115,6 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
@@ -135,12 +125,22 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faLinkedin}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.twitter}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faTwitter}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -167,11 +167,13 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
+							<h3>Things I've Built:</h3>
 							<AllProjects />
 						</div>
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
+								<h3>Articles I've Written:</h3>
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -189,6 +191,7 @@ const Homepage = () => {
 							</div>
 
 							<div className="homepage-works">
+							<h3>Technologies I'm Familiar With:</h3>
 								<Works />
 							</div>
 						</div>

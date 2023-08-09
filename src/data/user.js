@@ -1,24 +1,22 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Weston Schutt",
+		name: "Weston Schutt",
+		email: "wtschutt@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
 		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/westonio",
+		twitter: "https://twitter.com/weston_io",
+		instagram: "https://instagram.com/weston_io"
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Back-end web developer, proud cat dad, and amature botanist.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a backend developer with expertise in Ruby and Ruby on Rails. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
@@ -38,7 +36,7 @@ const INFO = {
 			title: "Project 1",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
@@ -47,7 +45,7 @@ const INFO = {
 			title: "Project 2",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
@@ -72,6 +70,15 @@ const INFO = {
 
 		{
 			title: "Project 5",
+			description:
+				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+
+		{
+			title: "Project 6",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
