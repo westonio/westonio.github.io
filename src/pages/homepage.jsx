@@ -96,7 +96,11 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{INFO.homepage.name} &#128075;
+								</div>
+
+								<div className="subtitle homepage-subtitle">
+								  {INFO.homepage.description}
 								</div>
 							</div>
 
@@ -167,7 +171,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<h3>Things I've Built:</h3>
 							<AllProjects />
 						</div>
 

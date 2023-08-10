@@ -10,13 +10,13 @@ const INFO = {
 		linkedin: "https://linkedin.com/",
 		github: "https://github.com/westonio",
 		twitter: "https://twitter.com/weston_io",
-		instagram: "https://instagram.com/weston_io"
+		instagram: "https://instagram.com/weston_io",
 	},
 
 	homepage: {
-		title: "Back-end web developer, proud cat dad, and amature botanist.",
-		description:
-			"I am a backend developer with expertise in Ruby and Ruby on Rails. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+		title: "Back-end software engineer, proud cat dad, and amature botanist.",
+		name: "Hi, I'm Weston! ",  
+		description: "I am a backend developer with expertise in Ruby on Rails. I am driven by a passion for continuous learning and creating technical solutions that empower people to thrive.",
 	},
 
 	about: {
