@@ -15,7 +15,7 @@ const INFO = {
 	homepage: {
 		title: "Back-end software engineer and proud cat dad",
 		name: "Hi, I'm Weston!",  
-		description: "I am a backend developer with expertise in Ruby on Rails. I am driven by a passion for continuous learning and creating technical solutions that empower people to thrive. ",
+		description: "I am a backend software engineer with expertise in Ruby on Rails. I am driven by a passion for continuous learning and creating technical solutions that empower people to thrive. ",
 		about: "/about"
 	},
 
@@ -55,6 +55,7 @@ const INFO = {
 			title: "Adopt, Don't Shop",
 			description:
 			"Adopt, Don't Shop is a paired project to facilitate the pet adoption process, enabling users to apply to adopt pets while administrators can manage applications and pet approvals. Built using Ruby on Rails.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/westonio/adopt-dont-shop/blob/main/README.md",
 		},

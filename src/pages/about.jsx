@@ -46,6 +46,7 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle" id="about-items">
+									<p>&#128187; Back-End Engineer</p>  
 									<p>&#129302; He/Him</p>  
 									<p>&#128205; Denver, Colorado </p>
 									<p>&#128483;&#65039; English, Learning Mandarin （慢慢學）</p>

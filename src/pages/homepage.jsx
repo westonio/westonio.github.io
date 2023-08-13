@@ -187,7 +187,6 @@ const Homepage = () => {
 							</div>
 									
 							<div className="homepage-works">
-								<h3>Technologies I'm Familiar With:</h3>
 								<Works />
 							</div>
 						</div>
