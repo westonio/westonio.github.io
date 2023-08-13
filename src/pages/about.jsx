@@ -42,11 +42,26 @@ const About = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									{INFO.about.title} 
+								</div>
+
+								<div className="subtitle about-subtitle" id="about-items">
+									<p>&#129302; He/Him</p>  
+									<p>&#128205; Denver, Colorado </p>
+									<p>&#128483;&#65039; English, Learning Mandarin （慢慢學）</p>
+								</div>
+								
+								<div className="subtitle about-subtitle">
+									&#127481;&#127484; {INFO.about.description1}
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									&#128104;&#8205;&#128187; {INFO.about.description2}
+								</div>
+
+								
+								<div className="subtitle about-subtitle">
+									&#9968;&#65039; {INFO.about.description3}
 								</div>
 							</div>
 

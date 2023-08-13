@@ -58,7 +58,8 @@
 
 .subtitle {
 	padding-top: 10px;
-	color: var(--secondary-color);
+	color: black;
+	font-weight: bold;
 	font-size: 16px;
 	line-height: 28px;
 	width: 70%;

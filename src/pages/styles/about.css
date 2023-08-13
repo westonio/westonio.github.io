@@ -29,6 +29,10 @@
 	flex-basis: 900px;
 }
 
+#about-items {
+	padding-left: 50px;
+}
+
 .about-title {
 	width: 100% !important;
 }

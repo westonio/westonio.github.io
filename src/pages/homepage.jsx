@@ -16,6 +16,7 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
+import TopProjects from "../components/projects/topProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -101,6 +102,7 @@ const Homepage = () => {
 
 								<div className="subtitle homepage-subtitle">
 								  {INFO.homepage.description}
+									<a href={INFO.homepage.about}> &nbsp;  Learn more...</a>
 								</div>
 							</div>
 
@@ -171,7 +173,8 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<AllProjects />
+							<h3>Recent projects I've built:</h3>
+							<TopProjects />
 						</div>
 
 						<div className="homepage-after-title">
@@ -192,9 +195,9 @@ const Homepage = () => {
 									</div>
 								))}
 							</div>
-
+									
 							<div className="homepage-works">
-							<h3>Technologies I'm Familiar With:</h3>
+								<h3>Technologies I'm Familiar With:</h3>
 								<Works />
 							</div>
 						</div>

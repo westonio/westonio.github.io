@@ -45,12 +45,12 @@
 	color: var(--link-color) !important;
 }
 
-.nav-item a {
+.nav-item a, .homepage-subtitle a {
 	text-decoration: none;
 	color: var(--primary-color);
 }
 
-.nav-item a:hover {
+.nav-item a:hover, .homepage-subtitle a:hover {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
 }
