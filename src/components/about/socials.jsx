@@ -5,7 +5,6 @@ import {
 	faTwitter,
 	faGithub,
 	faLinkedin,
-	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -17,56 +16,50 @@ const Socials = () => {
 		<div className="socials">
 			<div className="social">
 				<a
+					href={INFO.socials.github}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<FontAwesomeIcon
+						icon={faGithub}
+						className="social-icon"
+					/>
+				</a>
+				<a
 					href={INFO.socials.linkedin}
 					target="_blank"
 					rel="noreferrer"
 				>
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faLinkedin}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on LinkedIn</div>
+					<FontAwesomeIcon
+						icon={faLinkedin}
+						className="social-icon"
+					/>
 				</a>
-			</div>
-			
-			<div className="social">
-				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faGithub}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on GitHub</div>
-				</a>
-			</div>
-
-			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faTwitter}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on Twitter</div>
+				<a
+					href={INFO.socials.twitter}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<FontAwesomeIcon
+						icon={faTwitter}
+						className="social-icon"
+					/>
 				</a>
 			</div>
 
 			<div className="email">
 				<div className="email-wrapper">
-					<a
-						href={`mailto:${INFO.main.email}`}
-						target="_blank"
-						rel="noreferrer"
-					>
-						<div className="social-icon">
-							<FontAwesomeIcon icon={faEnvelope} />
-						</div>
+				<a
+					href={`mailto:${INFO.main.email}`}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<FontAwesomeIcon
+						icon={faEnvelope}
+						className="social-icon"
+					/>
 
-						<div className="social-text">{INFO.main.email}</div>
+						<div className="social-text"> {INFO.main.email} </div>
 					</a>
 				</div>
 			</div>

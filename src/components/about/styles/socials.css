@@ -10,17 +10,31 @@
 	text-decoration: none;
 }
 
+
+.email-wrapper a:hover {
+	.social-text {
+		text-decoration: underline;
+	}
+}
+
 .social-icon {
-	font-size: 15px;
+	padding-right: 20px;
+	font-size: 25px;
+	transition: color 0.2s ease-in-out;
 	color: var(--secondary-color);
 }
 
+.social-icon:hover {
+	color: var(--primary-color);
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
 .social-text {
+	display:inline-block;
 	color: var(--secondary-color);
-	padding-left: 30px;
-	margin-top: -20px;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .email::before {
@@ -28,9 +42,9 @@
 	display: block;
 	padding-top: 20px;
 	border-top: 3px solid #f4f4f5;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .email-wrapper {
-	padding-top: 20px;
+	padding-top: 10px;
 }

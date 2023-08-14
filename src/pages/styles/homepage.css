@@ -68,6 +68,7 @@
 
 .homepage-social-icon:hover {
 	color: var(--primary-color);
+	margin-top: -5px;
 }
 
 .homepage-after-title {

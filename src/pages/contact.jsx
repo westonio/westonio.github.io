@@ -45,8 +45,8 @@ const Contact = () => {
 
 						<div className="subtitle contact-subtitle">
 							<p> &#128172; Let’s connect and discuss how we can create technical 
-								solutions that empower people and make the world a better 
-								place together!</p>
+								solutions together that empower people and make the world a better 
+								place!</p>
 
 							<p>&#9749; If you have any questions or would like to schedule a coffee chat with me, please feel free to 
 								message me on <a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">LinkedIn</a> or 
