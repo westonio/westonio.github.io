@@ -15,7 +15,7 @@ const INFO = {
 	homepage: {
 		title: "Back-end software engineer and proud cat dad",
 		name: "Hi, I'm Weston!",  
-		description: "I am a backend software engineer with expertise in Ruby on Rails. I am driven by a passion for continuous learning and creating technical solutions that empower people to thrive. ",
+		description: "I am a back-end software engineer with expertise in Ruby on Rails. I am driven by a passion for continuous learning and creating technical solutions that empower people to thrive. ",
 		about: "/about"
 	},
 
@@ -27,9 +27,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Articles I've Written",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"While I love learning something new, I also really enjoy sharing my knowledge with others. This will be a growing collection of my thoughts on transitioning to tech, tranferrable skills, programming, leadership, and more.",
 	},
 
 	projects: [
@@ -59,33 +59,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/westonio/adopt-dont-shop/blob/main/README.md",
 		},
-
-		// {
-		// 	title: "Project 4",
-		// 	description:
-		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com",
-		// },
-
-		// {
-		// 	title: "Project 5",
-		// 	description:
-		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com",
-		// },
-
-		// {
-		// 	title: "Project 6",
-		// 	description:
-		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com",
-		// },
 	],
 
 	topProjects: [

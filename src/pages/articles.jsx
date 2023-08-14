@@ -4,14 +4,13 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Article from "../components/articles/article";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-// import myArticles from "../data/articles";
+import Article from "../components/homepage/article";
+import myArticles from "../data/articles";
 
 import "./styles/articles.css";
-import AllArticles from "../components/articles/allArticles";
 
 const Articles = () => {
 	useEffect(() => {
@@ -41,8 +40,27 @@ const Articles = () => {
 					</div>
 
 					<div className="articles-main-container">
+						<div className="title articles-title">
+							{INFO.articles.title}
+						</div>
+
+						<div className="subtitle articles-subtitle">
+							{INFO.articles.description}
+						</div>
+
 						<div className="articles-container">
-							<AllArticles />
+							<div className="articles-wrapper">
+								{myArticles.all.map((article, index) => (
+									<div className="articles-article">
+										<Article
+											date={article.date}
+											title={article.title}
+											description={article.description}
+											link={article.link}
+										/>
+									</div>
+								))}
+							</div>
 						</div>
 					</div>
 					<div className="page-footer">

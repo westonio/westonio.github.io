@@ -15,7 +15,6 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
 import TopProjects from "../components/projects/topProjects";
 
 import INFO from "../data/user";
@@ -163,15 +162,15 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<h3>Recent projects I've built:</h3>
+							<h3>Recent Projects:</h3>
 							<TopProjects />
 						</div>
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								<h3>Articles I've Written:</h3>
-								{myArticles.map((article, index) => (
-									<div className="articles-article">
+								<h3>Recent Articles:</h3>
+								{myArticles.top.map((article, index) => (
+									<div className="homepage-article">
 										<Article
 											date={article.date}
 											title={article.title}

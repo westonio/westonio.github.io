@@ -39,11 +39,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Projects I've been working on
+							Projects I've worked on
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I value continuous learning, so I usually have ongoing projects. I build these with the intention to either refresh and strengthen my working knowledge or to learn a new skill, language or stack. 
+							I value continuous learning and will have ongoing projects as a result. I build these with the intention to either refresh and strengthen my working knowledge or to learn a new skill, language or stack.
 						</div>
 
 						<div className="projects-list">

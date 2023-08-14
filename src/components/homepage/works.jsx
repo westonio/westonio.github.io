@@ -12,7 +12,7 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						<div class="work">
-							<h3> I'm familiar with: </h3>
+							<h3> I'm Experienced With: </h3>
 							<div>
 								<img
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg"
@@ -90,7 +90,7 @@ const Works = () => {
 							</div>	
 						</div>
 
-						<h3>I'm learning:</h3>
+						<h3>I'm Learning:</h3>
 						<div class="work">
 							<img
 								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -106,7 +106,7 @@ const Works = () => {
 							
 						</div>
 
-						<h3>I want to learn:</h3>
+						<h3>I Want to Learn:</h3>
 						<div>
 							<img
 								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
