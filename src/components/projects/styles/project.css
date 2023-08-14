@@ -12,7 +12,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: #EEF0F2;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -45,6 +45,7 @@
 
 .project-description {
 	color: var(--secondary-color);
+	font-weight: bold;
 }
 
 .project-link {

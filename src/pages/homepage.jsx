@@ -171,16 +171,12 @@ const Homepage = () => {
 							<div className="homepage-articles">
 								<h3>Articles I've Written:</h3>
 								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
+									<div className="articles-article">
 										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
+											date={article.date}
+											title={article.title}
+											description={article.description}
+											link={article.link}
 										/>
 									</div>
 								))}
