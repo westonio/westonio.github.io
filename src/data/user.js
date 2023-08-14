@@ -7,7 +7,7 @@ const INFO = {
 	},
 
 	socials: {
-		linkedin: "https://linkedin.com/",
+		linkedin: "https://linkedin.com/in/westonschutt",
 		github: "https://github.com/westonio",
 		twitter: "https://twitter.com/westonio_",
 	},
