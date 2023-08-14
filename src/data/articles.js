@@ -3,21 +3,21 @@ import React from "react";
 const myArticles =  {
 	all: [
 		{
-			date: "13 August 2023",
-			title: "Why Learning Mandarin Helped Me Pivot to Tech",
+			date: "14 August 2023",
+			title: "How Studying Chinese Helped Me Transition to Tech",
 			description:
-				"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
-			link: "https://github.com/dani-wilson/little-shop-7",
+				"Learning a foreign language like Mandarin Chinese can provide you with valuable and transferrable skills that can enhance performance and effectiveness in tech roles.",
+			link: "https://medium.com/@westonio-dev/how-studying-chinese-helped-me-transition-to-tech-13d9c06fe439",
 		},
 	],
 
 	top: [
 		{
-			date: "13 August 2023",
-			title: "Why Learning Mandarin Helped Me Pivot to Tech",
+			date: "14 August 2023",
+			title: "How Studying Chinese Helped Me Transition to Tech",
 			description:
-				"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
-			link: "https://github.com/dani-wilson/little-shop-7",
+				"Learning a foreign language like Mandarin Chinese can provide you with valuable and transferrable skills that can enhance performance and effectiveness in tech roles.",
+			link: "https://medium.com/@westonio-dev/how-studying-chinese-helped-me-transition-to-tech-13d9c06fe439",
 		},
 	],
 };

@@ -13,22 +13,23 @@ const Article = (props) => {
 		<React.Fragment>
 			<div className="homepage-article">
 				<div className="homepage-article-content">
-					<div className="homepage-article-date">
-						|&nbsp;&nbsp;&nbsp;{date}
-					</div>
-					<div className="homepage-article-title">{title}</div>
-					<div className="homepage-article-description">
-						{description}
-					</div>
-					<div className="homepage-article-link">
-						<Link to={link}>
-							Read article{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</Link>
-					</div>
+					<Link to={link} target="_blank" rel="noreferrer">
+						<div className="homepage-article-date">
+							|&nbsp;&nbsp;&nbsp;{date}
+						</div>
+						<div className="homepage-article-title">{title}</div>
+						<div className="homepage-article-description">
+							{description}
+						</div>
+						<div className="homepage-article-link">
+							
+								Read article{" "}
+								<FontAwesomeIcon
+									style={{ fontSize: "10px" }}
+									icon={faChevronRight}
+								/>
+						</div>
+					</Link>
 				</div>
 			</div>
 		</React.Fragment>

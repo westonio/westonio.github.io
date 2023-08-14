@@ -11,10 +11,17 @@
 	background: #EEF0F2;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
+
+	.homepage-article-link {
+		color: var(--link-color);
+	}
 }
 
 .homepage-article-content {
 	padding: 30px;
+}
+.homepage-article-content a {
+	text-decoration: none;
 }
 
 .homepage-article-date {
@@ -46,9 +53,8 @@
 	font-weight: 700;
 }
 
-.homepage-article-link a {
-	color: var(--link-color);
-	text-decoration: none;
+.homepage-article-link {
+	color: var(--secondary-color);
 }
 
 @media (max-width: 600px) {
