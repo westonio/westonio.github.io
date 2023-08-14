@@ -49,9 +49,7 @@ const Works = () => {
 									alt="CSS3"
 									className="work-image"
 								/>
-							</div>
-
-							<div>
+						
 								<img
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
 									alt="git"
