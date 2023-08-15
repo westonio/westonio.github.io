@@ -13,8 +13,8 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Back-end software engineer and proud cat dad",
 		name: "Hi, I'm Weston!",  
+		title: "Back-end software engineer and proud cat dad",
 		description: "I am a back-end software engineer with expertise in Ruby on Rails. I am driven by a passion for continuous learning and creating technical solutions that empower people to thrive. ",
 		about: "/about"
 	},

@@ -15,6 +15,7 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import TopProjects from "../components/projects/topProjects";
+import { Link } from "react-router-dom";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -91,16 +92,12 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
-								</div>
-
-								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.name} &#128075;
 								</div>
 
 								<div className="subtitle homepage-subtitle">
 								  {INFO.homepage.description}
-									<a href={INFO.homepage.about}> &nbsp;  Learn more...</a>
+									<Link to="/about"> &nbsp;  Learn more...</Link>
 								</div>
 							</div>
 
