@@ -56,7 +56,6 @@
 	overflow: hidden;
 	width: 100%;
 	border-radius: 10%;
-	transform: rotate(3deg);
 }
 
 .about-image-wrapper img {
@@ -98,6 +97,7 @@
 
 	.about-image-container {
 		padding-bottom: 40px;
+		width: 50%;
 	}
 
 	.about-socials {
@@ -113,9 +113,5 @@
 @media (max-width: 600px) {
 	.about-container {
 		padding-top: 60px;
-	}
-
-	.about-image-container {
-		width: 80%;
 	}
 }

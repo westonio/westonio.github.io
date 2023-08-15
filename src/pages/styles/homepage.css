@@ -38,17 +38,22 @@
 
 .homepage-image-container {
 	width: 370px;
-	height: 370px;
 }
 
 .homepage-image-wrapper {
 	overflow: hidden;
-	border-radius: 10%;
-	transform: rotate(3deg);
 }
 
 .homepage-image-wrapper img {
+	border-radius: 10%;
 	width: 100%;
+}
+
+.homepage-image-container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 10px;
+	order: 3;
 }
 
 .homepage-socials {
@@ -105,31 +110,28 @@
 		flex-direction: column; /* Changed: set direction to column */
 		align-items: flex-start;
 		width: 100%;
-		order: 2;
+		order: 1;
 	}
 
 	.homepage-title {
 		width: 100% !important;
 		margin-top: 20px;
-		order: 2;
+		order: 1;
 	}
 
 	.homepage-subtitle {
 		width: 100% !important;
 		margin-top: 10px;
-		order: 3;
+		order: 2;
 	}
 
 	.homepage-first-area-right-side {
 		width: 100%;
-		order: 1;
+		order: 3;
 	}
 
 	.homepage-image-container {
-		padding-top: 50px;
-		padding-bottom: 50px;
-		margin-left: 10px;
-		order: 1;
+		width: 50%;
 	}
 
 	.homepage-after-title {
