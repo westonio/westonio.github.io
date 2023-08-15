@@ -157,6 +157,12 @@ const Homepage = () => {
 							</a>
 						</div>
 
+						<div className="homepage-works">
+						<h3>Technical Skills:</h3>
+							<Works />
+						</div>
+
+
 						<div className="homepage-projects">
 							<h3>Recent Projects:</h3>
 							<TopProjects />
@@ -175,10 +181,6 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
-									
-							<div className="homepage-works">
-								<Works />
 							</div>
 						</div>
 

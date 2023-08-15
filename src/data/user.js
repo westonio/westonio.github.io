@@ -29,7 +29,7 @@ const INFO = {
 	articles: {
 		title: "Articles I've Written",
 		description:
-			"While I love to always be learning something new, I also really enjoy sharing my knowledge with others. This will be a growing collection of my thoughts on transitioning to tech, programming, leadership, and more.",
+			"While I love to spend time learning, I also really enjoy sharing my knowledge with others. This will be a growing collection of my thoughts on transitioning to tech, programming, leadership, and more.",
 	},
 
 	projects: [

@@ -9,28 +9,28 @@ const SEO = [
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am a back-end software engineer with expertise in Ruby on Rails. I am driven by a passion for continuous learning and creating technical solutions that empower people to thrive.",
 		keywords: ["Weston", "Weston S.", "Weston Schutt", "Ruby on Rails", "Back-End Developer"],
 	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"While I love to spend time learning, I also really enjoy sharing my knowledge with others. This will be a growing collection of my thoughts on transitioning to tech, programming, leadership, and more.",
 		keywords: ["Weston", "Weston S.", "Weston Schutt", "Ruby on Rails", "Back-End Developer"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
+			"I value continuous learning and will have ongoing projects as a result. I build these with the intention to either refresh and strengthen my working knowledge or to learn a new skill, language or stack.",
 		keywords: ["Weston", "Weston S.", "Weston Schutt", "Ruby on Rails", "Back-End Developer"],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
+			"Let’s connect and discuss how we can create technical solutions together that empower people and make the world a better place! I'm always open to new ideas and opportunities.",
 		keywords: ["Weston", "Weston S.", "Weston Schutt", "Ruby on Rails", "Back-End Developer"],
 	},
 ];

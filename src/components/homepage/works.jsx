@@ -7,13 +7,13 @@ import "./styles/works.css";
 
 const Works = () => {
 	return (
-		<div className="works">
-			<Card
-				body={
-					<div className="works-body">
-						<div class="work">
-							<h3> I'm Experienced With: </h3>
-							<div>
+		<div className="works-container">
+			<div className="works-card">
+				<Card
+					body={
+						<div className="works-body">
+							<h4> I'm Experienced With: </h4>
+							<div class="work">
 								<img
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg"
 									alt="ruby"
@@ -85,49 +85,62 @@ const Works = () => {
 									alt="salesforce"
 									className="work-image"
 								/>
-							</div>	
+							</div>
 						</div>
+					}
+				/>
+			</div>
 
-						<h3>I'm Learning:</h3>
-						<div class="work">
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-								alt="javascript"
-								className="work-image"
-							/>
+			<div className="works-card">
+				<Card
+					body={
+						<div className="works-body">
+							<h4>I'm Learning:</h4>
+							<div class="work">
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+									alt="javascript"
+									className="work-image"
+								/>
 
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
-								alt="bootstrap"
-								className="work-image"
-							/>
-							
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+									alt="bootstrap"
+									className="work-image"
+								/>
+							</div>
 						</div>
+					}
+				/>
+			</div>
+			<div className="works-card">
+				<Card
+					body={
+						<div className="works-body">
+							<h4>I Want to Learn:</h4>
+							<div class="work">
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+									alt="docker"
+									className="work-image"
+								/>
 
-						<h3>I Want to Learn:</h3>
-						<div>
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
-								alt="docker"
-								className="work-image"
-							/>
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+									alt="amazon web services (AWS)"
+									className="work-image"
+								/>
 
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-								alt="amazon web services (AWS)"
-								className="work-image"
-							/>
-
-							<img
-								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-								alt="react"
-								className="work-image"
-							/>
+								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+									alt="react"
+									className="work-image"
+								/>
+							</div>
 						</div>
-					</div>
-					
-				}
-			/>
+					}
+				/>
+			</div>	
 		</div>
 	);
 };
