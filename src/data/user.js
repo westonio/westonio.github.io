@@ -21,7 +21,7 @@ const INFO = {
 
 	about: {
 		title: "Weston Schutt",
-		description1: "In July 2022 I had the honor of being a Taiwan Ministry of Education scholarship recipient and moved abroad to Taipei to study Mandarin for nine months. This afforded me the opportunity not only begin learning a new language and immerse myself in an amazing culture, but also to start my journey in software engineering using self-guided courses online. I will forever see that as one of the best experiences of my lifetime. ",
+		description1: "In July 2022, I received a Taiwan Ministry of Education scholarship and spent nine months studying Mandarin in Taipei. This allowed me to learn a new language, experience a vibrant culture, and kickstart my path in software engineering through self-guided online courses -— an experience I'll cherish forever.",
 		description2: "I am a CX and payroll professional turned back-end engineer. Curiously motivated to figure out how and why things work, I love creating solutions that help customers and colleagues succeed. I am passionate about technologies that help people and small businesses thrive. I am known to be an ambitious individual who learns fast and strives for continuous improvement while driving team development through training and mentoring.",
 		description3: "In my free time you'll find me at coffee shops, connecting with nature, enjoying cozy moments with my cats, watching anime with my fiancé Michael, reading a captivating book, planning the next adventure abroad, or dreaming of eating Taiwanese street food.",
 	},
