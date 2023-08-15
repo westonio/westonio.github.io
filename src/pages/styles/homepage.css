@@ -98,6 +98,8 @@
 	flex-basis: 600px;
 	padding-top: 30px;
 	padding-left: 30px;
+	margin-left: -30px;
+	margin-right: -30px;
 }
 
 @media (max-width: 1024px) {
@@ -149,7 +151,7 @@
 	.homepage-works {
 		flex-basis: auto;
 		margin-left: -25px;
-		margin-right: -25px;
+		margin-right: 0px;
 	}
 }
 

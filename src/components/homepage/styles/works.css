@@ -5,40 +5,38 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 	padding-top: 0px;
-	padding-bottom: 30px;
-	margin-left: -35px;
+	padding-bottom: 20px;
+	margin-left: -15px;
 	margin-right: -35px;
+	width: 100%;
+	border-radius: 20px;
+	background-color: #f4f4f5;
 }
 
 .works-card {
-	display: flex;
 	width: calc(100% / 3);
 	box-sizing: border-box;
 	padding: 10px;
 	overflow: hidden;
 }
 
-@media (max-width: 800px) {
-	.works-card {
-		width: calc(100% / 2);
-	}
-}
-
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
 	.works-card {
 		width: 100%;
+	}
+
+	.works-container {
+		margin-left: 0px;
 	}
 }
 
 .works-body {
-	margin-bottom: 20px;
+	margin-top: -25px;
 }
 
-.work {
-	padding-bottom: 40px;
-}
 
 .work-image {
+	background-color: #ffffff;
 	padding: 5px 2px;
 	margin-right: 10px;
 	height: 40px;
