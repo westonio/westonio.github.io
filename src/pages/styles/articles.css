@@ -49,4 +49,8 @@
 	.articles-subtitle {
 		width: 100% !important;
 	}
+
+	.articles-container {
+		margin-right: 40px;
+	}
 }

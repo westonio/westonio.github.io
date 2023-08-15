@@ -46,10 +46,11 @@
 
 .article-description {
 	padding-top: 10px;
-	font-size: 12px;
+	font-size: 13px;
 	color: var(--secondary-color);
 	font-weight: bold;
-	line-height: 25px;
+	line-height: 1.5;
+	font-style: italic;
 }
 
 .article-link {
