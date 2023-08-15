@@ -96,8 +96,53 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-								  {INFO.homepage.description}
-									<Link to="/about"> &nbsp;  Learn more...</Link>
+									<p>
+										{INFO.homepage.description}
+										<Link to="/about"> Learn more...</Link>
+									</p>
+								</div>
+
+								<div className="homepage-socials">
+									<a
+										href={INFO.socials.github}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faGithub}
+											className="homepage-social-icon"
+										/>
+									</a>
+									<a
+										href={INFO.socials.linkedin}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faLinkedin}
+											className="homepage-social-icon"
+										/>
+									</a>
+									<a
+										href={INFO.socials.twitter}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faTwitter}
+											className="homepage-social-icon"
+										/>
+									</a>
+									<a
+										href={`mailto:${INFO.main.email}`}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faEnvelope}
+											className="homepage-social-icon"
+										/>
+									</a>
 								</div>
 							</div>
 
@@ -114,48 +159,7 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="homepage-socials">
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faEnvelope}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div>
+						
 
 						<div className="homepage-works">
 						<h3>Technical Skills:</h3>
