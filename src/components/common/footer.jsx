@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						westons.dev	© 2023 . All Rights Reserved.
+						Weston Schutt	© 2023 
 					</div>
 				</div>
 			</div>
