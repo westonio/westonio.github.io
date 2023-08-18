@@ -34,7 +34,7 @@ const Homepage = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			let scroll = Math.round(window.pageYOffset, 2);
+			let scroll = Math.round(window.scrollY, 2);
 
 			let newLogoSize = 80 - (scroll * 4) / 10;
 
