@@ -120,14 +120,20 @@ const Works = () => {
 							<h4>I Want to Learn:</h4>
 							<div class="work">
 								<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+									alt="amazon web services (AWS)"
+									className="work-image"
+								/>
+
+								<img
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
 									alt="docker"
 									className="work-image"
 								/>
 
 								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-									alt="amazon web services (AWS)"
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+									alt="jest.js"
 									className="work-image"
 								/>
 
