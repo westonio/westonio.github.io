@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
@@ -21,16 +21,14 @@ function App() {
 
 	return (
 		<div className="App">
-			<Router>
-				<switch>
-					<Route path="/" element={<Homepage />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="/articles" element={<Articles />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="*" element={<Notfound />} />
-				</switch>
-			</Router>
+			<Routes>
+				<Route path="/" element={<Homepage />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/articles" element={<Articles />} />
+				<Route path="/contact" element={<Contact />} />
+				<Route path="*" element={<Notfound />} />
+			</Routes>
 		</div>
 	);
 }
