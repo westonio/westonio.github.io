@@ -77,6 +77,15 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/westonio/the_dmv/blob/main/README.md",
 		},
+		{
+
+			title: "Beat Box",
+			description:
+			"Beat box is a solo project that focuses on creating functionality for a linked list data structure and playing back sounds based on the data within the linked list. Built using Ruby",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://github.com/westonio/Beat_box/blob/main/README.md",
+		},
 	],
 
 	topProjects: [
