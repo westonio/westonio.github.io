@@ -3,6 +3,14 @@ import React from "react";
 const myArticles =  {
 	all: [
 		{
+			date: "20 August 2023",
+			title: "Why CX Professionals Make Great Software Engineers",
+			description:
+				"Bridging Professions: Why CX Professionals Excel in Software Engineering",
+			link: "https://medium.com/@westonio-dev/why-cx-professionals-make-great-software-engineers-71dd3c6a84f1"
+		},
+
+		{
 			date: "14 August 2023",
 			title: "How Studying Mandarin Helped Me Transition to Tech",
 			description:
@@ -11,8 +19,16 @@ const myArticles =  {
 		},
 	],
 
-	top: [
+	top: [ //Top two homepage articles
 		{
+			date: "20 August 2023",
+			title: "Why CX Professionals Make Great Software Engineers",
+			description:
+				"Bridging Professions: Why CX Professionals Excel in Software Engineering",
+			link: "https://medium.com/@westonio-dev/why-cx-professionals-make-great-software-engineers-71dd3c6a84f1"
+		},
+
+		{ 
 			date: "14 August 2023",
 			title: "How Studying Mandarin Helped Me Transition to Tech",
 			description:
