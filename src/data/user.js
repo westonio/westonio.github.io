@@ -34,6 +34,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Viewing Party",
+			description:
+			"Viewing Party is an entertainment project that enables users to explore movie options and create events to watch a movie with other users, leveraging the IMDb API to populate data for movies, actors, and reviews. Built using Ruby on Rails.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://github.com/westonio/viewing_party/tree/main#viewing-party",
+		},
+
+		{
 			title: "Esty Bulk Discounts",
 			description:
 				"Esty Bulk Discounts is a comprehensive e-commerce project that integrates complex ActiveRecord queries and also incorporates real-time data consumed from the Nager.Date API to display upcoming US holidays. Built using Ruby on Rails.",
@@ -54,7 +63,7 @@ const INFO = {
 		{
 			title: "Adopt, Don't Shop",
 			description:
-			"Adopt, Don't Shop is a paired project to facilitate the pet adoption process, enabling users to apply to adopt pets while administrators can manage applications and pet approvals. Built using Ruby on Rails.",
+				"Adopt, Don't Shop is a paired project to facilitate the pet adoption process, enabling users to apply to adopt pets while administrators can manage applications and pet approvals. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/westonio/adopt-dont-shop/blob/main/README.md",
@@ -63,7 +72,7 @@ const INFO = {
 		{
 			title: "Battleship",
 			description:
-			"Battleship is a paired project built to emulate the classic game and allow users to play within their terminal and customize their board size and ships for a dynamic experience. Built using Ruby",
+				"Battleship is a paired project built to emulate the classic game and allow users to play within their terminal and customize their board size and ships for a dynamic experience. Built using Ruby",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/westonio/battle_ship/blob/main/README.md",
@@ -90,6 +99,15 @@ const INFO = {
 
 	topProjects: [
 		{
+			title: "Viewing Party",
+			description:
+				"Viewing Party is an entertainment project that enables users to explore movie options and create events to watch a movie with other users, leveraging the IMDb API to populate data for movies, actors, and reviews. Built using Ruby on Rails.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://github.com/westonio/viewing_party/tree/main#viewing-party",
+		},
+
+		{
 			title: "Esty Bulk Discounts",
 			description:
 				"Esty Bulk Discounts is a comprehensive e-commerce project that integrates complex ActiveRecord queries and also incorporates real-time data consumed from the Nager.Date API to display upcoming US holidays. Built using Ruby on Rails.",
@@ -105,15 +123,6 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/westonio/little-esty-shop/tree/main#readme",
-		},
-
-		{
-			title: "Adopt, Don't Shop",
-			description:
-				"Adopt, Don't Shop is a paired project to facilitate the pet adoption process, enabling users to apply to adopt pets while administrators can manage applications and pet approvals. Built using Ruby on Rails.",
-			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
-			linkText: "View Project",
-			link: "https://github.com/westonio/adopt-dont-shop/blob/main/README.md",
 		},
 	],
 };
