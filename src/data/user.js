@@ -34,6 +34,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Farmers' Market API Party",
+			description:
+				"Built to provide a microservice architecture, this project offers a variety of endpoints for discovering and managing local Farmers' Markets and Vendors. Built using Ruby on Rails.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://github.com/westonio/farmers_market_api#farmers-market-api",
+		},
+		{
 			title: "Viewing Party",
 			description:
 			"Viewing Party is an entertainment project that enables users to explore movie options and create events to watch a movie with other users, leveraging the IMDb API to populate data for movies, actors, and reviews. Built using Ruby on Rails.",
@@ -99,6 +107,14 @@ const INFO = {
 
 	topProjects: [
 		{
+			title: "Farmers' Market API Party",
+			description:
+				"Built to provide a microservice architecture, this project offers a variety of endpoints for discovering and managing local Farmers' Markets and Vendors. Built using Ruby on Rails.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://github.com/westonio/farmers_market_api#farmers-market-api",
+		},
+		{
 			title: "Viewing Party",
 			description:
 				"Viewing Party is an entertainment project that enables users to explore movie options and create events to watch a movie with other users, leveraging the IMDb API to populate data for movies, actors, and reviews. Built using Ruby on Rails.",
@@ -114,15 +130,6 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/westonio/bulk-discounts/blob/main/README.md",
-		},
-
-		{
-			title: "Little Esty Shop",
-			description:
-				"Little Esty Shop is a fictitious e-commerce platform we designed as a group project to empower merchants and administrators with advanced features for managing their items and fullfilling customer invoices. Built using Ruby on Rails.",
-			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
-			linkText: "View Project",
-			link: "https://github.com/westonio/little-esty-shop/tree/main#readme",
 		},
 	],
 };
