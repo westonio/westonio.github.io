@@ -34,12 +34,12 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Farmers' Market API Party",
+			title: "Farmers' Market API",
 			description:
 				"Built to provide a microservice architecture, this project offers a variety of endpoints for discovering and managing local Farmers' Markets and Vendors. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/farmers_market_api#farmers-market-api",
+			link: "https://github.com/westonio/farmers_market_api/tree/main#readme",
 		},
 		{
 			title: "Viewing Party",
@@ -47,7 +47,7 @@ const INFO = {
 			"Viewing Party is an entertainment project that enables users to explore movie options and create events to watch a movie with other users, leveraging the IMDb API to populate data for movies, actors, and reviews. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/viewing_party/tree/main#viewing-party",
+			link: "https://github.com/westonio/viewing_party/tree/main#readme",
 		},
 
 		{
@@ -56,7 +56,7 @@ const INFO = {
 				"Esty Bulk Discounts is a comprehensive e-commerce project that integrates complex ActiveRecord queries and also incorporates real-time data consumed from the Nager.Date API to display upcoming US holidays. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/bulk-discounts/blob/main/README.md",
+			link: "https://github.com/westonio/bulk-discounts/tree/main#readme",
 		},
 
 		{
@@ -74,7 +74,7 @@ const INFO = {
 				"Adopt, Don't Shop is a paired project to facilitate the pet adoption process, enabling users to apply to adopt pets while administrators can manage applications and pet approvals. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/adopt-dont-shop/blob/main/README.md",
+			link: "https://github.com/westonio/adopt-dont-shop/tree/main#readme",
 		},
 		
 		{
@@ -83,7 +83,7 @@ const INFO = {
 				"Battleship is a paired project built to emulate the classic game and allow users to play within their terminal and customize their board size and ships for a dynamic experience. Built using Ruby",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/battle_ship/blob/main/README.md",
+			link: "https://github.com/westonio/battle_ship/tree/main#readme",
 		},
 		
 		{
@@ -92,7 +92,7 @@ const INFO = {
 			"The DMV is a solo project that simulates the operations of a Department of Motor Vehicle and consumes data from various DMV apis to create facility and vehicle objects. Built using Ruby",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/the_dmv/blob/main/README.md",
+			link: "https://github.com/westonio/the_dmv/tree/main#readme",
 		},
 		{
 
@@ -101,18 +101,18 @@ const INFO = {
 			"Beat box is a solo project that focuses on creating functionality for a linked list data structure and playing back sounds based on the data within the linked list. Built using Ruby",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/Beat_box/blob/main/README.md",
+			link: "https://github.com/westonio/Beat_box/tree/main#readme",
 		},
 	],
 
 	topProjects: [
 		{
-			title: "Farmers' Market API Party",
+			title: "Farmers' Market API",
 			description:
 				"Built to provide a microservice architecture, this project offers a variety of endpoints for discovering and managing local Farmers' Markets and Vendors. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/farmers_market_api#farmers-market-api",
+			link: "https://github.com/westonio/farmers_market_api/tree/main#readme",
 		},
 		{
 			title: "Viewing Party",
@@ -120,7 +120,7 @@ const INFO = {
 				"Viewing Party is an entertainment project that enables users to explore movie options and create events to watch a movie with other users, leveraging the IMDb API to populate data for movies, actors, and reviews. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/viewing_party/tree/main#viewing-party",
+			link: "https://github.com/westonio/viewing_party/tree/main#readme",
 		},
 
 		{
@@ -129,7 +129,7 @@ const INFO = {
 				"Esty Bulk Discounts is a comprehensive e-commerce project that integrates complex ActiveRecord queries and also incorporates real-time data consumed from the Nager.Date API to display upcoming US holidays. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
-			link: "https://github.com/westonio/bulk-discounts/blob/main/README.md",
+			link: "https://github.com/westonio/bulk-discounts/tree/main#readme",
 		},
 	],
 };
