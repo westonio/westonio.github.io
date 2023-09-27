@@ -34,6 +34,22 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Sweat Or Sweater",
+			description:
+				"Sweat-Or-Sweater is a road trip planning application that provides users with the current weather and forecasted weather at their destination based on their estimated time of arrival - allowing users to better plan how they should pack/dress. Built using Ruby on Rails.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://github.com/westonio/sweat-or-sweater#readme",
+		},
+		{
+			title: "Next Steps",
+			description:
+				"Built with service oriented achitecture to split out front-end and back-end responsibilities, this project leverages the 211 API along with geolocation to assist individuals in finding community resources/ human services in their vicinity. Built using Ruby on Rails.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://gist.github.com/westonio/d7743133d648fd10eaa1340d4fba0545",
+		},
+		{
 			title: "Farmers' Market API",
 			description:
 				"Built to provide a microservice architecture, this project offers a variety of endpoints for discovering and managing local Farmers' Markets and Vendors. Built using Ruby on Rails.",
@@ -107,6 +123,14 @@ const INFO = {
 
 	topProjects: [
 		{
+			title: "Next Steps",
+			description:
+				"Built with service oriented achitecture to split out front-end and back-end responsibilities, this project leverages the 211 API along with geolocation to assist individuals in finding community resources/ human services in their vicinity. Built using Ruby on Rails.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://gist.github.com/westonio/d7743133d648fd10eaa1340d4fba0545",
+		},
+		{
 			title: "Farmers' Market API",
 			description:
 				"Built to provide a microservice architecture, this project offers a variety of endpoints for discovering and managing local Farmers' Markets and Vendors. Built using Ruby on Rails.",
@@ -121,15 +145,6 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/westonio/viewing_party/tree/main#readme",
-		},
-
-		{
-			title: "Esty Bulk Discounts",
-			description:
-				"Esty Bulk Discounts is a comprehensive e-commerce project that integrates complex ActiveRecord queries and also incorporates real-time data consumed from the Nager.Date API to display upcoming US holidays. Built using Ruby on Rails.",
-			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
-			linkText: "View Project",
-			link: "https://github.com/westonio/bulk-discounts/tree/main#readme",
 		},
 	],
 };
