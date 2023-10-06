@@ -224,6 +224,15 @@ const Works = () => {
 									/>
 									<p>Pytest</p>
 								</div>
+								
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+										alt="Django"
+										className="work-image"
+									/>
+									<p>Django</p>
+								</div>
 
 								<div class="skill-container">
 									<img
