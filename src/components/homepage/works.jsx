@@ -1,5 +1,4 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 
@@ -12,79 +11,143 @@ const Works = () => {
 				<Card
 					body={
 						<div className="works-body">
-							<h4> I'm Experienced With: </h4>
+							<h4> Experienced With: </h4>
 							<div class="work">
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg"
-									alt="ruby"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+										alt="ruby"
+										className="work-image"
+									/>
+									<p>Ruby</p>
+								</div>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
-									alt="rails"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg"
+										alt="rails"
+										className="work-image"
+									/>
+									<p>Rails</p>
+								</div>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
-									alt="postgresql"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rspec/rspec-original.svg"
+										alt="ruby specification (RSpec)"
+										className="work-image"
+									/>
+									<p>RSpec</p>
+								</div>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rspec/rspec-original-wordmark.svg"
-									alt="ruby specification (RSpec)"
-									className="work-image"
-								/>
+								<div class="skill-container">								
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+										alt="postgresql"
+										className="work-image"
+									/>
+									<p>PostgreSQL</p>
+								</div>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-									alt="html5"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+										alt="html5"
+										className="work-image"
+									/>
+									<p>HTML</p>
+								</div>
+
+								<div class="skill-container">					
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+										alt="CSS3"
+										className="work-image"
+									/>
+									<p>CSS</p>
+								</div>
+
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
+										alt="Heroku"
+										className="work-image"
+									/>
+									<p>Heroku</p>
+								</div>
+
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg"
+										alt="CircleCI"
+										className="work-image"
+									/>
+									<p>CircleCI</p>
+								</div>
+
+								<div class="skill-container">
+									<img
+										src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+										alt="Postman"
+										className="work-image"
+									/>
+									<p>Postman</p>
+								</div>
+							
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+										alt="git"
+										className="work-image"
+									/>
+									<p>Git</p>
+								</div>
+
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+										alt="github"
+										className="work-image"
+									/>
+									<p>GitHub</p>
+								</div>
+									
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+										alt="visual studio code (VSCode)"
+										className="work-image"
+									/>
+									<p>VSCode</p>
+								</div>
+					
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg"
+										alt="slack"
+										className="work-image"
+									/>
+									<p>Slack</p>
+								</div>
 								
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
-									alt="CSS3"
-									className="work-image"
-								/>
-						
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
-									alt="git"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+										alt="jira"
+										className="work-image"
+									/>
+									<p>Jira</p>
+								</div>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
-									alt="github"
-									className="work-image"
-								/>
-								
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg"
-									alt="visual studio code (VSCode)"
-									className="work-image"
-								/>
-				
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg"
-									alt="slack"
-									className="work-image"
-								/>
-								
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg"
-									alt="jira"
-									className="work-image"
-								/>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg"
-									alt="salesforce"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg"
+										alt="salesforce"
+										className="work-image"
+									/>
+									<p>Salesforce</p>
+								</div>
 							</div>
 						</div>
 					}
@@ -95,19 +158,53 @@ const Works = () => {
 				<Card
 					body={
 						<div className="works-body">
-							<h4>I'm Learning:</h4>
+							<h4>Exposed to / Learning:</h4>
 							<div class="work">
-								<img
+								
+								<div class="skill-container">
+									<img
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 									alt="javascript"
 									className="work-image"
-								/>
+									/>
+									<p>JavaScript</p>
+								</div>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
-									alt="bootstrap"
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+										alt="bootstrap"
+										className="work-image"
+									/>
+									<p>Bootstrap</p>
+								</div>
+							
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+										alt="python"
+										className="work-image"
+									/>
+									<p>Python</p>
+								</div>
+								
+								<div class="skill-container">
+									<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+									alt="Fast API"
 									className="work-image"
-								/>
+									/>
+									<p>Fast API</p>
+								</div>
+								
+								<div class="skill-container">
+									<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+									alt="Redis"
+									className="work-image"
+									/>
+									<p>Redis</p>
+								</div>
 							</div>
 						</div>
 					}
@@ -117,31 +214,43 @@ const Works = () => {
 				<Card
 					body={
 						<div className="works-body">
-							<h4>I Want to Learn:</h4>
+							<h4>Want to Learn:</h4>
 							<div class="work">
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-									alt="amazon web services (AWS)"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg"
+										alt="Pytest"
+										className="work-image"
+									/>
+									<p>Pytest</p>
+								</div>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
-									alt="docker"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+										alt="react"
+										className="work-image"
+									/>
+									<p>React</p>
+								</div>
 
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-									alt="jest.js"
-									className="work-image"
-								/>
-
-								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-									alt="react"
-									className="work-image"
-								/>
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+										alt="amazon web services (AWS)"
+										className="work-image"
+									/>
+									<p>AWS</p>
+								</div>
+								
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+										alt="docker"
+										className="work-image"
+									/>
+									<p>Docker</p>
+								</div>
 							</div>
 						</div>
 					}
