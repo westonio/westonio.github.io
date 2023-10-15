@@ -67,6 +67,15 @@ const Works = () => {
 									<p>CSS</p>
 								</div>
 
+								<div class="skill-container">					
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+										alt="GraphQL"
+										className="work-image"
+									/>
+									<p>GraphQL</p>
+								</div>
+
 								<div class="skill-container">
 									<img
 										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
