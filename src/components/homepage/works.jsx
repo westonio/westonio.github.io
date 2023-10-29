@@ -172,22 +172,13 @@ const Works = () => {
 								
 								<div class="skill-container">
 									<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-									alt="javascript"
-									className="work-image"
-									/>
-									<p>JavaScript</p>
-								</div>
-
-								<div class="skill-container">
-									<img
-										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-										alt="bootstrap"
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+										alt="amazon web services (AWS)"
 										className="work-image"
 									/>
-									<p>Bootstrap</p>
+									<p>AWS</p>
 								</div>
-							
+
 								<div class="skill-container">
 									<img
 										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
@@ -205,7 +196,7 @@ const Works = () => {
 									/>
 									<p>Fast API</p>
 								</div>
-								
+
 								<div class="skill-container">
 									<img
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
@@ -214,6 +205,34 @@ const Works = () => {
 									/>
 									<p>Redis</p>
 								</div>
+
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+										alt="bootstrap"
+										className="work-image"
+									/>
+									<p>Bootstrap</p>
+								</div>
+
+								<div class="skill-container">
+									<img
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+									alt="javascript"
+									className="work-image"
+									/>
+									<p>JavaScript</p>
+								</div>
+
+								<div class="skill-container">
+									<img
+										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+										alt="react"
+										className="work-image"
+									/>
+									<p>React</p>
+								</div>	
+								
 							</div>
 						</div>
 					}
@@ -241,24 +260,6 @@ const Works = () => {
 										className="work-image"
 									/>
 									<p>Django</p>
-								</div>
-
-								<div class="skill-container">
-									<img
-										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-										alt="react"
-										className="work-image"
-									/>
-									<p>React</p>
-								</div>
-
-								<div class="skill-container">
-									<img
-										src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
-										alt="amazon web services (AWS)"
-										className="work-image"
-									/>
-									<p>AWS</p>
 								</div>
 								
 								<div class="skill-container">
