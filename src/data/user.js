@@ -34,9 +34,17 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Foodie Brain",
+			description:
+				"A group project built using Service Oriented Architecture (SOA). Designed for all the foodie trends, it allows users to mark and share their reviews of popular dishes on an interactive map. Built using Ruby on Rails for the back-end and React for the front-end.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://gist.github.com/westonio/750b6376dec5bd7b4ddf8f8f414618c9",
+		},
+		{
 			title: "Sweat Or Sweater",
 			description:
-				"Sweat-Or-Sweater is a road trip planning application that provides users with the current weather and forecasted weather at their destination based on their estimated time of arrival - allowing users to better plan how they should pack/dress. Built using Ruby on Rails.",
+				"A road trip planning application that provides users with the current weather and forecasted weather at their destination based on their estimated time of arrival - allowing users to better plan how they should pack/dress. Built using Ruby on Rails.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/westonio/sweat-or-sweater#readme",
@@ -123,6 +131,14 @@ const INFO = {
 
 	topProjects: [
 		{
+			title: "Foodie Brain",
+			description:
+				"A group project built using Service Oriented Architecture (SOA). Designed for all the foodie trends, it allows users to mark and share their reviews of popular dishes on an interactive map. Built using Ruby on Rails for the back-end and React for the front-end.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+			linkText: "View Project",
+			link: "https://gist.github.com/westonio/750b6376dec5bd7b4ddf8f8f414618c9",
+		},
+		{
 			title: "Next Steps",
 			description:
 				"Built with service oriented achitecture to split out front-end and back-end responsibilities, this project leverages the 211 API along with geolocation to assist individuals in finding community resources/ human services in their vicinity. Built using Ruby on Rails.",
@@ -137,14 +153,6 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/westonio/farmers_market_api/tree/main#readme",
-		},
-		{
-			title: "Viewing Party",
-			description:
-				"Viewing Party is an entertainment project that enables users to explore movie options and create events to watch a movie with other users, leveraging the IMDb API to populate data for movies, actors, and reviews. Built using Ruby on Rails.",
-			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
-			linkText: "View Project",
-			link: "https://github.com/westonio/viewing_party/tree/main#readme",
 		},
 	],
 };
