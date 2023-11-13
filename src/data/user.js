@@ -37,7 +37,7 @@ const INFO = {
 			title: "Foodie Brain",
 			description:
 				"A group project built using Service Oriented Architecture (SOA). Designed for all the foodie trends, it allows users to mark and share their reviews of popular dishes on an interactive map. Built using Ruby on Rails for the back-end and React for the front-end.",
-			technologies: "Ruby, Rails, RSpec, React, PostgreSQL, AWS, Postman, CircleCI, Heroku",
+			technologies: "Ruby, Rails, RSpec, React, PostgreSQL RDMS, AWS, Postman, CircleCI, Heroku",
 			linkText: "View Project",
 			link: "https://gist.github.com/westonio/750b6376dec5bd7b4ddf8f8f414618c9",
 		},
@@ -45,7 +45,7 @@ const INFO = {
 			title: "Sweat Or Sweater",
 			description:
 				"A road trip planning application that provides users with the current weather and forecasted weather at their destination based on their estimated time of arrival - allowing users to better plan how they should pack/dress.",
-			technologies: "Ruby, Rails, RSpec, PostgreSQL, Postman",
+			technologies: "Ruby, Rails, RSpec, PostgreSQL RDMS, Postman",
 			linkText: "View Project",
 			link: "https://github.com/westonio/sweat-or-sweater#readme",
 		},
@@ -53,7 +53,7 @@ const INFO = {
 			title: "Next Steps",
 			description:
 				"Built with service oriented achitecture to split out front-end and back-end responsibilities, this project leverages the 211 API along with geolocation to assist individuals in finding community resources/ human services in their vicinity.",
-			technologies: "Ruby, Rails, RSpec, Javascript, PostgreSQL, Capybara, Webmock, VCR, Postman, CircleCI, Heroku",
+			technologies: "Ruby, Rails, RSpec, Javascript, PostgreSQL RDMS, Capybara, Webmock, VCR, Postman, CircleCI, Heroku",
 			linkText: "View Project",
 			link: "https://gist.github.com/westonio/d7743133d648fd10eaa1340d4fba0545",
 		},
@@ -61,7 +61,7 @@ const INFO = {
 			title: "Farmers' Market API",
 			description:
 				"Built to provide a microservice architecture, this project offers a variety of endpoints for discovering and managing local Farmers' Markets and Vendors.",
-			technologies: "Ruby, Rails, RSpec, PostgreSQL, Capybara, Webmock, VCR, Postman",
+			technologies: "Ruby, Rails, RSpec, PostgreSQL RDMS, Capybara, Webmock, VCR, Postman",
 			linkText: "View Project",
 			link: "https://github.com/westonio/farmers_market_api/tree/main#readme",
 		},
@@ -69,7 +69,7 @@ const INFO = {
 			title: "Viewing Party",
 			description:
 			"Viewing Party is an entertainment project that enables users to explore movie options and create events to watch a movie with other users, leveraging the IMDb API to populate data for movies, actors, and reviews.",
-			technologies: "",
+			technologies: "Ruby, Rails, HTML, CSS, SQL, RSpec, Capybara, Webmock, VCR, PostgreSQL RDMS, Postman, Faraday",
 			linkText: "View Project",
 			link: "https://github.com/westonio/viewing_party/tree/main#readme",
 		},
@@ -78,7 +78,7 @@ const INFO = {
 			title: "Esty Bulk Discounts",
 			description:
 				"Esty Bulk Discounts is a comprehensive e-commerce project that integrates complex ActiveRecord queries and also incorporates real-time data consumed from the Nager.Date API to display upcoming US holidays.",
-			technologies: "",
+			technologies: "Ruby, Rails, HTML, CSS, SQL, RSpec, Capybara, Webmock, VCR, PostgreSQL RDMS, Postico, Faraday, Postman",
 			linkText: "View Project",
 			link: "https://github.com/westonio/bulk-discounts/tree/main#readme",
 		},
@@ -87,7 +87,7 @@ const INFO = {
 			title: "Little Esty Shop",
 			description:
 				"Little Esty Shop is a fictitious e-commerce platform we designed as a group project to empower merchants and administrators with advanced features for managing their items and fullfilling customer invoices.",
-			technologies: "",
+			technologies: "Ruby, Rails, HTML, CSS, SQL, RSpec, Capybara, Webmock, VCR, PostgreSQL RDMS, Postico",
 			linkText: "View Project",
 			link: "https://github.com/westonio/little-esty-shop/tree/main#readme",
 		},
@@ -96,7 +96,7 @@ const INFO = {
 			title: "Adopt, Don't Shop",
 			description:
 				"Adopt, Don't Shop is a paired project to facilitate the pet adoption process, enabling users to apply to adopt pets while administrators can manage applications and pet approvals.",
-			technologies: "",
+			technologies: "Ruby, Rails, HTML, CSS, SQL, RSpec, Capybara, Webmock, VCR, PostgreSQL RDMS, Postico",
 			linkText: "View Project",
 			link: "https://github.com/westonio/adopt-dont-shop/tree/main#readme",
 		},
@@ -105,7 +105,7 @@ const INFO = {
 			title: "Battleship",
 			description:
 				"Battleship is a paired project built to emulate the classic game and allow users to play within their terminal and customize their board size and ships for a dynamic experience.",
-			technologies: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
+			technologies: "Ruby, RSpec, Git, GitHub",
 			linkText: "View Project",
 			link: "https://github.com/westonio/battle_ship/tree/main#readme",
 		},
@@ -114,7 +114,7 @@ const INFO = {
 			title: "The DMV",
 			description:
 			"The DMV is a solo project that simulates the operations of a Department of Motor Vehicle and consumes data from various DMV apis to create facility and vehicle objects.",
-			technologies: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
+			technologies: "Ruby, RSpec, Git, GitHub",
 			linkText: "View Project",
 			link: "https://github.com/westonio/the_dmv/tree/main#readme",
 		},
@@ -123,7 +123,7 @@ const INFO = {
 			title: "Beat Box",
 			description:
 			"Beat box is a solo project that focuses on creating functionality for a linked list data structure and playing back sounds based on the data within the linked list.",
-			technologies: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg",
+			technologies: "Ruby, RSpec, Git, GitHub",
 			linkText: "View Project",
 			link: "https://github.com/westonio/Beat_box/tree/main#readme",
 		},
@@ -134,7 +134,7 @@ const INFO = {
 			title: "Foodie Brain",
 			description:
 				"A group project built using Service Oriented Architecture (SOA). Designed for all the foodie trends, it allows users to mark and share their reviews of popular dishes on an interactive map. Built using Ruby on Rails for the back-end and React for the front-end.",
-			technologies: "Ruby, Rails, RSpec, React, PostgreSQL, AWS, Postman, CircleCI, Heroku",
+			technologies: "Ruby, Rails, RSpec, React, PostgreSQL RDMS, AWS, Postman, CircleCI, Heroku",
 			linkText: "View Project",
 			link: "https://gist.github.com/westonio/750b6376dec5bd7b4ddf8f8f414618c9",
 		},
@@ -142,7 +142,7 @@ const INFO = {
 			title: "Next Steps",
 			description:
 				"Built with service oriented achitecture to split out front-end and back-end responsibilities, this project leverages the 211 API along with geolocation to assist individuals in finding community resources/ human services in their vicinity.",
-			technologies: "Ruby, Rails, RSpec, Javascript, PostgreSQL, Capybara, Webmock, VCR, Postman, CircleCI, Heroku",
+			technologies: "Ruby, Rails, RSpec, Javascript, PostgreSQL RDMS, Capybara, Webmock, VCR, Postman, CircleCI, Heroku",
 			linkText: "View Project",
 			link: "https://gist.github.com/westonio/d7743133d648fd10eaa1340d4fba0545",
 		},
@@ -150,7 +150,7 @@ const INFO = {
 			title: "Farmers' Market API",
 			description:
 				"Built to provide a microservice architecture, this project offers a variety of endpoints for discovering and managing local Farmers' Markets and Vendors.",
-			technologies: "Ruby, Rails, RSpec, PostgreSQL, Capybara, Webmock, VCR, Postman",
+			technologies: "Ruby, Rails, RSpec, PostgreSQ RDMS, Capybara, Webmock, VCR, Postman",
 			linkText: "View Project",
 			link: "https://github.com/westonio/farmers_market_api/tree/main#readme",
 		},
